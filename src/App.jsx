@@ -94,12 +94,14 @@ export default function App() {
   className="
     relative
     bg-no-repeat
-    bg-cover
+    bg-contain
     bg-top
+    md:bg-cover
     md:bg-center
   "
   style={{
     backgroundImage: "url('/bg.jpg')",
+    backgroundColor: "#0f172a",
   }}
 >
   {/* dark overlay */}
@@ -234,13 +236,15 @@ export default function App() {
 <section
   className="
     py-20 px-4
-    bg-cover
     bg-no-repeat
+    bg-contain
     bg-top
+    md:bg-cover
     md:bg-center
   "
   style={{
     backgroundImage: "url('/bg2.png')",
+    backgroundColor: "#0f172a",
   }}
 >
   {/* optional dark overlay */}
@@ -348,15 +352,17 @@ export default function App() {
 <section
   className="
     py-20 px-4
-    bg-cover
     bg-no-repeat
+    bg-contain
     bg-top
+    md:bg-cover
     md:bg-center
     relative
   "
   style={{
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/bg3.jpg')",
+      "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('/bg3.jpg')",
+    backgroundColor: "#0f172a",
   }}
 >
   <div className="max-w-7xl mx-auto relative z-10">
