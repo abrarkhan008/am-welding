@@ -307,22 +307,25 @@ export default function App() {
         Recent Projects
       </h2>
 
-      <div className="grid md:grid-cols-3 gap-6">
-        {["6.png", "7.png", "8.png", "9.png", "10.png", "11.png"].map(
-          (img, i) => (
-            <div
-              key={i}
-              className="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition group"
-            >
-              <img
-                src={`/${img}`}
-                alt={`Project ${i + 1}`}
-                className="w-full h-56 object-cover group-hover:scale-105 transition duration-500"
-              />
-            </div>
-          )
-        )}
-      </div>
+     <div className="grid md:grid-cols-3 gap-6">
+  {["6.png", "7.png", "8.png", "9.png", "10.png", "11.png"].map(
+    (img, i) => (
+      <a
+        key={i}
+        href={`/${img}`}
+        target="_blank"
+        rel="noreferrer"
+        className="rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition group block"
+      >
+        <img
+          src={`/${img}`}
+          alt={`Project ${i + 1}`}
+          className="w-full h-56 object-cover group-hover:scale-105 transition duration-500 cursor-pointer"
+        />
+      </a>
+    )
+  )}
+</div>
     </div>
   </div>
 </section>
