@@ -27,7 +27,7 @@ export default function App() {
     <div className="font-sans text-gray-800">
 
       {/* TOP BAR */}
-      <div className="bg-blue-900 text-white text-sm py-2 px-4 flex flex-wrap justify-between items-center gap-2">
+      {/* <div className="bg-blue-900 text-white text-sm py-2 px-4 flex flex-wrap justify-between items-center gap-2">
        <div className="flex gap-6 flex-wrap">
   <span>📧 amweldingandfabricationwork@gmail.com</span>
 
@@ -47,7 +47,7 @@ export default function App() {
 
   <span>📍 KIADB 428, Hebbal Industrial Area, Mysuru - 570016</span>
 </div>
-      </div>
+      </div> */}
 
       {/* NAVBAR */}
       <nav className="bg-white shadow-md sticky top-0 z-50">
@@ -91,8 +91,16 @@ export default function App() {
       {/* ABOUT */}
   {/* ABOUT + SERVICES WITH ONE BACKGROUND */}
 <div
-  className="relative bg-cover bg-center bg-no-repeat"
-  style={{ backgroundImage: "url('/bg.jpg')" }}
+  className="
+    relative
+    bg-no-repeat
+    bg-cover
+    bg-top
+    md:bg-center
+  "
+  style={{
+    backgroundImage: "url('/bg.jpg')",
+  }}
 >
   {/* dark overlay */}
   <div className="absolute inset-0 bg-black/40"></div>
@@ -224,13 +232,16 @@ export default function App() {
       {/* WHY CHOOSE US */}
     {/* WHY CHOOSE US + PROJECTS WITH SAME BACKGROUND */}
 <section
+  className="
+    py-20 px-4
+    bg-cover
+    bg-no-repeat
+    bg-top
+    md:bg-center
+  "
   style={{
     backgroundImage: "url('/bg2.png')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
   }}
-  className="py-20 px-4"
 >
   {/* optional dark overlay */}
   <div className="bg-black/60 rounded-2xl">
@@ -335,7 +346,14 @@ export default function App() {
 
    {/* FAQ + CONTACT WITH SAME BACKGROUND */}
 <section
-  className="py-20 px-4 bg-cover bg-center bg-no-repeat relative"
+  className="
+    py-20 px-4
+    bg-cover
+    bg-no-repeat
+    bg-top
+    md:bg-center
+    relative
+  "
   style={{
     backgroundImage:
       "linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('/bg3.jpg')",
