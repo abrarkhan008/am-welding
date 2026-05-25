@@ -32,7 +32,7 @@ export default function App() {
   <span>📧 amweldingandfabricationwork@gmail.com</span>
 
   <a
-    href="tel:+919844155244"
+    href="tel:+919880048884"
     className="hover:text-yellow-300 transition"
   >
     📞 +91 98441 55244
@@ -467,10 +467,10 @@ export default function App() {
     </h4>
 
     <a
-      href="tel:+919844155244"
+      href="tel:+919880048884"
       className="block text-white hover:underline"
     >
-      +91 98441 55244
+      +91 98800 48884
     </a>
 
     <a
@@ -580,7 +580,7 @@ export default function App() {
             <p className="text-blue-300 text-sm mb-3">📍 KIADB 428, Hebbal Industrial Area, Metagalli, Karnataka 570016</p>
             <p className="text-blue-300 text-sm break-all">📧 amweldingandfabricationwork@gmail.com</p>
             <p className="text-blue-300 text-sm">
-  📞 +91 98441 55244
+  📞 +91 98800 48884
 </p>
 
 <p className="text-blue-300 text-sm">
@@ -595,7 +595,7 @@ export default function App() {
 
       {/* WHATSAPP FLOATING BUTTON */}
      <a
-  href="https://wa.me/919844155244"
+  href="https://wa.me/919880048884"
   target="_blank"
   rel="noreferrer"
   className="fixed bottom-6 right-6 bg-green-500 text-white rounded-full w-14 h-14 flex items-center justify-center text-3xl shadow-lg hover:bg-green-600 hover:scale-110 transition z-50"
